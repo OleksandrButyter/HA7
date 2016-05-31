@@ -1,6 +1,6 @@
 // JavaScript File
 function getFibonacci() {
-    var num = document.equation.a.value;
+    var num = document.equation.a.value,
         a = 1,
         b = 1,
         c, i;
