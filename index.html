@@ -2,15 +2,15 @@
 <head>
     <title>Fibonacci number</title>
     <meta charset="utf-8">
-    <script src="js/index.js"></script>
 </head>
 <body>
     <div align="center">
-        <form name="equation" >
+        <form name="equation" action="javascript:getFibonacci()">
             <input name="a" type="text" placeholder="n" size="2" pattern="[1-9]{1,}" title = "Only number" required>
+            <input type="submit" value=" Ok ">
         </form>
-        <button id="btn">Go</button>
         <span id="res"></span>
     </div>
+  <script src="js/index.js"></script>   
 </body>
 </html>
