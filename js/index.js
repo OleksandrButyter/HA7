@@ -1,5 +1,5 @@
 // JavaScript File
-function getFibonacci() {
+function getFibonacci(e) {
     var num = document.equation.a.value;
         a = 1,
         b = 1,
@@ -20,7 +20,6 @@ function getFibonacci() {
 
 
 
-btn.addEventListener('click', getFibonacci);
 
-
+btn.addEventListener('click', getFibonacci, true);
 
